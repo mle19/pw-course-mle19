@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test("Add Notes and Search", async ({ page }) => {
-    await test.step("Navigate to Register page", async () => {
+    await test.step("Navigate to Personal notes page", async () => {
         await page.goto("https://material.playwrightvn.com/")
         await page.locator("//a[text()='Bài học 4: Personal notes']").click();
     })
